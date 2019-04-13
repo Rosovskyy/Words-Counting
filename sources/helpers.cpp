@@ -17,10 +17,19 @@ void print(std::vector<std::string> const &string) {
     std::cout << '\n';
 }
 
+std::vector<std::string> slice(std::vector<std::string> const &data, int m, int n) {
+    auto first = data.cbegin() + m;
+    auto last = data.cbegin() + n + 1;
+
+    std::vector<std::string> vec(first, last);
+    return vec;
+}
+
 void printMap(std::map<std::string, int> map) {
     for (auto el : map) {
-        std::cout << el.first << " " << el.second << std::endl;
+        std::cout << el.first << " - " << el.second << " ";
     }
+    std::cout << "\n" << std::endl;
 }
 
 std::vector<std::string> read_txt_file(std::string const &path) {

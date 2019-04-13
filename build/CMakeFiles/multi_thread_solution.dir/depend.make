@@ -5,6 +5,7 @@ CMakeFiles/multi_thread_solution.dir/sources/helpers.cpp.o: ../headers/helpers.h
 CMakeFiles/multi_thread_solution.dir/sources/helpers.cpp.o: ../sources/helpers.cpp
 
 CMakeFiles/multi_thread_solution.dir/sources/multi_thread_solution.cpp.o: ../headers/helpers.h
+CMakeFiles/multi_thread_solution.dir/sources/multi_thread_solution.cpp.o: ../headers/word_count.h
 CMakeFiles/multi_thread_solution.dir/sources/multi_thread_solution.cpp.o: ../sources/multi_thread_solution.cpp
 
 CMakeFiles/multi_thread_solution.dir/sources/word_count.cpp.o: ../headers/helpers.h

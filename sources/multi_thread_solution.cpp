@@ -3,6 +3,7 @@
 //
 
 #include "../headers/helpers.h"
+#include "../headers/word_count.h"
 
 int main(int argc, char *argv[]) {
 
@@ -31,18 +32,24 @@ int main(int argc, char *argv[]) {
 
 
 
-    for (int i = 1; i < argc; i++) {
+    for (int i = 2; i < argc; i++) {
         std::string filename = argv[i];
-
+        std::cout << filename << " FILE:" << std::endl;
         std::vector<std::string> words;
+        auto before = get_current_time_fenced();
         try {
             words = read_txt_file(filename);
         } catch (std::exception &ex) {
             std::cerr << "Error: " << ex.what() << std::endl;
             return 3;
         }
+        std::map<std::string, int> result = run_multi_thread_solution(words, thread_num);
 
+        write_to_file(result, i-1);
 
+        auto total_time = get_current_time_fenced() - before;
+        std::cout << "Total time: " << to_us(total_time) << std::endl;
+        std::cout << "\n" << std::endl;
     }
 
 

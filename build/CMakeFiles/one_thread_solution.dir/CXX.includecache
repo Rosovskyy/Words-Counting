@@ -17,6 +17,8 @@ vector
 -
 map
 -
+math.h
+-
 string
 -
 boost/algorithm/string.hpp
@@ -25,16 +27,6 @@ boost/algorithm/string.hpp
 /Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/headers/word_count.h
 ../headers/helpers.h
 /Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/headers/helpers.h
-
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/sources/helpers.cpp
-../headers/helpers.h
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/headers/helpers.h
-
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/sources/one_thread_solution.cpp
-../headers/helpers.h
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/headers/helpers.h
-../headers/word_count.h
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/headers/word_count.h
 
 /Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/sources/word_count.cpp
 ../headers/helpers.h

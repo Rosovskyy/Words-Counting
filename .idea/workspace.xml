@@ -9,7 +9,34 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb8f040-de67-4bae-a501-97ea0b88d67d" name="Default Changelist" comment="" />
+    <list default="true" id="aeb8f040-de67-4bae-a501-97ea0b88d67d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/sources/helpers.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/sources/helpers.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/sources/multi_thread_solution.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/sources/multi_thread_solution.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/sources/word_count.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/multi_thread_solution.dir/sources/word_count.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/one_thread_solution.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/one_thread_solution.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/one_thread_solution.dir/sources/helpers.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/one_thread_solution.dir/sources/helpers.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/one_thread_solution.dir/sources/one_thread_solution.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/one_thread_solution.dir/sources/one_thread_solution.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/one_thread_solution.dir/sources/word_count.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/one_thread_solution.dir/sources/word_count.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/multi_thread_solution" beforeDir="false" afterPath="$PROJECT_DIR$/build/multi_thread_solution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/one_thread_solution" beforeDir="false" afterPath="$PROJECT_DIR$/build/one_thread_solution" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/helpers.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/helpers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/word_count.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/word_count.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/result1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/result1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/result2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/result2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/helpers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/helpers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/multi_thread_solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/multi_thread_solution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/one_thread_solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/one_thread_solution.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/word_count.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sources/word_count.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,48 +48,50 @@
     <session id="82355823">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2444" />
-          <entry key="h" value="107" />
-          <entry key="txt" value="295" />
+          <entry key="cpp" value="5289" />
+          <entry key="h" value="134" />
+          <entry key="txt" value="338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="157" />
-          <entry key="ObjectiveC" value="2551" />
-          <entry key="PLAIN_TEXT" value="138" />
+          <entry key="ObjectiveC" value="5423" />
+          <entry key="PLAIN_TEXT" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cmake" value="1" />
-          <entry key="cpp" value="17" />
-          <entry key="h" value="10" />
-          <entry key="txt" value="27" />
+          <entry key="cpp" value="31" />
+          <entry key="h" value="16" />
+          <entry key="txt" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="4" />
-          <entry key="ObjectiveC" value="27" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="ObjectiveC" value="47" />
+          <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/one_thread_solution.cpp">
+        <entry file="file://$PROJECT_DIR$/sources/word_count.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="192">
+              <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
               <folding>
                 <element signature="e#50#81#0" expanded="true" />
               </folding>
@@ -71,37 +100,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/multi_thread_solution.cpp">
+        <entry file="file://$PROJECT_DIR$/input2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="322">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="153" selection-start-line="9" selection-start-column="153" selection-end-line="9" selection-end-column="153" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/helpers.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../project/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1702">
-              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="253">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -109,22 +120,22 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/sources/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/headers/word_count.h" />
+        <option value="$PROJECT_DIR$/sources/one_thread_solution.cpp" />
+        <option value="$PROJECT_DIR$/sources/multi_thread_solution.cpp" />
+        <option value="$PROJECT_DIR$/sources/helpers.cpp" />
+        <option value="$PROJECT_DIR$/headers/helpers.h" />
+        <option value="$PROJECT_DIR$/sources/word_count.cpp" />
         <option value="$PROJECT_DIR$/input2.txt" />
         <option value="$PROJECT_DIR$/input.txt" />
-        <option value="$PROJECT_DIR$/sources/one_thread_solution.cpp" />
-        <option value="$PROJECT_DIR$/headers/helpers.h" />
-        <option value="$PROJECT_DIR$/headers/word_count.h" />
-        <option value="$PROJECT_DIR$/sources/word_count.cpp" />
-        <option value="$PROJECT_DIR$/sources/helpers.cpp" />
-        <option value="$PROJECT_DIR$/sources/multi_thread_solution.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -144,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,12 +217,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555144976635</updated>
-      <workItem from="1555144978372" duration="5139000" />
+      <workItem from="1555144978372" duration="12242000" />
+      <workItem from="1555163677375" duration="340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5139000" />
+    <option name="totallyTimeSpent" value="12582000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -227,9 +239,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.11056511" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
@@ -237,7 +249,7 @@
       <window_info anchor="bottom" id="Find" order="5" weight="0.32923833" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="CMake" order="8" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="CMake" order="8" weight="0.32923833" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32923833" />
@@ -254,9 +266,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/headers/helpers.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CPP_Lab_3_Integrate/sources/multi_thread_solution.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
@@ -278,96 +287,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../project/main.cpp">
+    <entry file="file://$PROJECT_DIR$/result2.txt" />
+    <entry file="file://$PROJECT_DIR$/result1.txt" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1702">
-          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/word_count.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#50#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/headers/helpers.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="30" />
+        <state relative-caret-position="207">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/headers/word_count.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        <state relative-caret-position="207">
+          <caret line="9" column="99" selection-start-line="9" selection-start-column="99" selection-end-line="9" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/helpers.cpp">
+    <entry file="file://$PROJECT_DIR$/sources/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/sources/multi_thread_solution.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="149">
+          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/one_thread_solution.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="41">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CPP_Lab_2_Number_Of_Sol/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headers/helpers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/helpers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../project/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/result2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/result1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/word_count.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding>
             <element signature="e#50#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/multi_thread_solution.cpp">
+    <entry file="file://$PROJECT_DIR$/input2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="322">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="153" selection-start-line="9" selection-start-column="153" selection-end-line="9" selection-end-column="153" />
+        <state relative-caret-position="253">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>

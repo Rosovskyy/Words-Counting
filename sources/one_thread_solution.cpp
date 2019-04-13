@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
 
         std::map<std::string, int> result = run_one_thread_solution(words);
         write_to_file(result, i);
-
+        printMap(result);
         auto total_time = get_current_time_fenced() - before;
         std::cout << "Total time: " << to_us(total_time) << std::endl;
         std::cout << "\n" << std::endl;

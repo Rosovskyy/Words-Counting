@@ -10,6 +10,7 @@
 #include <thread>
 #include <vector>
 #include <map>
+#include <math.h>
 #include <string>
 #include <boost/algorithm/string.hpp>
 
@@ -32,5 +33,6 @@ void printMap(std::map<std::string, int> map);
 std::vector<std::string> read_txt_file(std::string const &path);
 void write_to_file(std::map<std::string, int> words, int number);
 bool isNotAlpha(char c);
+std::vector<std::string> slice(std::vector<std::string> const &data, int m, int n);
 
 #endif //CPP_LAB_4_WORD_COUNT_HEALPERS_H

@@ -3,7 +3,7 @@ beauty 1
 die 1
 do 1
 game 1
-hello 4
+hello 7
 life 1
 love 1
 magic 1
