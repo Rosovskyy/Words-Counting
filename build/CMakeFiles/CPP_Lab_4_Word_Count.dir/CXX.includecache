@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/headers/helpers.h
+iostream
+-
+fstream
+-
+thread
+-
+vector
+-
+boost/algorithm/string.hpp
+-
+
+/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/sources/main.cpp
+../headers/helpers.h
+/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/headers/helpers.h
+
