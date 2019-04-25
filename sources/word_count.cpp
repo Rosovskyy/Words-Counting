@@ -38,12 +38,11 @@ std::map<std::string, int> run_multi_thread_solution(std::vector<std::string> wo
     std::mutex m;
     std::vector<std::map<std::string, int>> res;
     std::vector<std::thread> threads;
-
+    auto before = get_current_time_fenced();
     int step = floor(words.size() / thread_num);
     int start = 0, finish = 0;
     for (int i = 0; i < thread_num - 1; ++i) {
         std::vector<std::string> part = slice(words, start, finish += step);
-        print(part);
         threads.emplace_back(counting_process, part, std::ref(res), std::ref(m));
         start = finish + 1;
         finish++;
@@ -55,6 +54,8 @@ std::map<std::string, int> run_multi_thread_solution(std::vector<std::string> wo
         threads[i].join();
     }
 
+    std::cout << "Calculated time: " << to_us(get_current_time_fenced() - before) << std::endl;
+
 ////    threads.clear();
 ////    std::vector<std::thread> threads;
 ////    bool sign = true
@@ -62,10 +63,6 @@ std::map<std::string, int> run_multi_thread_solution(std::vector<std::string> wo
 ////
 ////    }
 //
-    for (int i = 0; i < res.size(); i++) {
-        printMap(res[i]);
-        std::cout << "\n" << std::endl;
-    }
 
     std::map<std::string, int> result = res[0];
     for (int i = 1; i < res.size(); i++) {

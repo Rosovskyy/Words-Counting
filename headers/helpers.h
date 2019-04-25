@@ -12,6 +12,7 @@
 #include <map>
 #include <math.h>
 #include <string>
+#include <lib/zip.h>
 #include <boost/algorithm/string.hpp>
 
 inline std::chrono::steady_clock::time_point get_current_time_fenced() {
@@ -35,4 +36,4 @@ void write_to_file(std::map<std::string, int> words, int number);
 bool isNotAlpha(char c);
 std::vector<std::string> slice(std::vector<std::string> const &data, int m, int n);
 
-#endif //CPP_LAB_4_WORD_COUNT_HEALPERS_H
+#endif //CPP_LAB_4_WORD_COUNT_HELPERS_H

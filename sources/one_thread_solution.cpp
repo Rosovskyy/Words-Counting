@@ -7,6 +7,11 @@
 
 int main(int argc, char *argv[]) {
 
+    int err = 0;
+     zip *z = zip_open("../zipInput.zip", 0, &err);
+
+    exit(-1);
+
     if (argc < 2) {
         std::cout << "Wrong number of arguments!" << std::endl;
         std::cout << "The format is following: <input file> .." << std::endl;
@@ -27,7 +32,6 @@ int main(int argc, char *argv[]) {
 
         std::map<std::string, int> result = run_one_thread_solution(words);
         write_to_file(result, i);
-        printMap(result);
         auto total_time = get_current_time_fenced() - before;
         std::cout << "Total time: " << to_us(total_time) << std::endl;
         std::cout << "\n" << std::endl;
