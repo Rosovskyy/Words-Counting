@@ -37,6 +37,10 @@ This program counts the number of each words in input files usin multithreading.
     $ python3 script.py <times_to_run_the_program> <input_file>
     ```
     
+## The table of the working time.
+### <a href="https://docs.google.com/spreadsheets/d/1Lz7ZOkt46eSk6qM3eEByrSSz2cZqpVWvGWbCdWl-CMg/edit#gid=0">Macbook(Serhii Rosovskyi)</a>
+<img src="graphs/Macbook.png" width="50%">
+    
 
 
 ## License and copyright
