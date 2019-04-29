@@ -36,4 +36,12 @@ void write_to_file(std::map<std::string, int> words, int number);
 bool isNotAlpha(char c);
 std::vector<std::string> slice(std::vector<std::string> const &data, int m, int n);
 
+struct configuration {
+    std::vector<std::string> inputFiles;
+    std::vector<std::string> outputFiles;
+    int threads;
+};
+
+configuration read_conf(std::istream &cf);
+
 #endif //CPP_LAB_4_WORD_COUNT_HELPERS_H
