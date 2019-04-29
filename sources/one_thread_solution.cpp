@@ -7,10 +7,16 @@
 
 int main(int argc, char *argv[]) {
 
-    int err = 0;
-     zip *z = zip_open("../zipInput.zip", 0, &err);
-
-    exit(-1);
+//    int err = 0;
+//    zip *z = zip_open("../zipInput.zip", 0, &err);
+//
+//    if (argc < 2) {
+//        std::cout << "Wrong number of arguments!" << std::endl;
+//
+//        std::cout << "The format is following: <input file> .." << std::endl;
+//    }
+//
+//    exit(-1);
 
     if (argc < 2) {
         std::cout << "Wrong number of arguments!" << std::endl;

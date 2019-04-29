@@ -63,3 +63,38 @@ void write_to_file(std::map<std::string, int> words, int number) {
         file << el.first << " " << el.second << std::endl;
     }
 }
+
+configuration read_conf(std::istream &cf) {
+    std::ios::fmtflags flags(cf.flags());
+    cf.exceptions(std::ifstream::failbit);
+
+    configuration res{};
+    std::string temp;
+
+//    try {
+//        cf >> res.rel_err;
+//        getline(cf, temp);
+//        cf >> res.abs_err;
+//        getline(cf, temp);
+//        cf >> res.x1;
+//        getline(cf, temp);
+//        cf >> res.x2;
+//        getline(cf, temp);
+//        cf >> res.y1;
+//        getline(cf, temp);
+//        cf >> res.y2;
+//        getline(cf, temp);
+//        cf >> res.initial_steps;
+//        getline(cf, temp);
+//        cf >> res.max_steps;
+//        getline(cf, temp);
+//    } catch (std::ios_base::failure &fail) {
+//        cf.flags(flags);
+//        throw;
+//    }
+//    cf.flags(flags);
+//    if (res.threads < 1) {
+//        throw std::runtime_error("threads should be >= 1");
+//    }
+    return res;
+}
