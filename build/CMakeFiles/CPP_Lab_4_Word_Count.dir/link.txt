@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -pthread -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/CPP_Lab_4_Word_Count.dir/sources/main.cpp.o CMakeFiles/CPP_Lab_4_Word_Count.dir/sources/helpers.cpp.o  -o CPP_Lab_4_Word_Count 

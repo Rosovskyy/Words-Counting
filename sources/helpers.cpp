@@ -2,12 +2,17 @@
 // Created by Serhii Rosovskyi on 4/13/19.
 //
 #include "../headers/helpers.h"
+#include <boost/locale.hpp>
 
 bool isNotAlpha(char c) {
     if (isdigit(c)) {
         return 1;
     }
     return isalnum(c) == 0;
+}
+
+std::string extension(std::string file) {
+    return file.substr(file.find_last_of('.') + 1, file.length());
 }
 
 void print(std::vector<std::string> const &string) {
@@ -56,45 +61,41 @@ std::vector<std::string> read_txt_file(std::string const &path) {
     return res;
 }
 
-void write_to_file(std::map<std::string, int> words, int number) {
-    std::ofstream file;
-    file.open("../results/result" + std::to_string(number) + ".txt");
-    for (auto el : words) {
-        file << el.first << " " << el.second << std::endl;
-    }
+bool number_compare(std::pair<std::string, int> &first, std::pair<std::string, int> &second) {
+    return first.second > second.second;
 }
 
-configuration read_conf(std::istream &cf) {
-    std::ios::fmtflags flags(cf.flags());
-    cf.exceptions(std::ifstream::failbit);
 
-    configuration res{};
-    std::string temp;
+bool words_compare(std::pair<std::string, int> &first, std::pair<std::string, int> &second) {
+    return first.first < second.first;
+}
 
-//    try {
-//        cf >> res.rel_err;
-//        getline(cf, temp);
-//        cf >> res.abs_err;
-//        getline(cf, temp);
-//        cf >> res.x1;
-//        getline(cf, temp);
-//        cf >> res.x2;
-//        getline(cf, temp);
-//        cf >> res.y1;
-//        getline(cf, temp);
-//        cf >> res.y2;
-//        getline(cf, temp);
-//        cf >> res.initial_steps;
-//        getline(cf, temp);
-//        cf >> res.max_steps;
-//        getline(cf, temp);
-//    } catch (std::ios_base::failure &fail) {
-//        cf.flags(flags);
-//        throw;
-//    }
-//    cf.flags(flags);
-//    if (res.threads < 1) {
-//        throw std::runtime_error("threads should be >= 1");
-//    }
-    return res;
+void write_to_file(const std::string &filename, std::vector<std::pair<std::string, int>> &words) {
+    std::ofstream my_file;
+    my_file.open(filename);
+    for (const auto &i: words)
+        my_file << i.first << ":  " << i.second << std::endl;
+}
+
+config read_file(std::string filename) {
+    config conf{};
+    std::string s, indexing, merging;
+    std::ifstream file(filename);
+    std::vector<std::string> data;
+
+    for (int i = 0; i < 3; ++i) {
+        file >> s;
+        data.push_back(s.substr(s.find('"') + 1, s.find_last_not_of('"') - s.find('"')));
+    }
+    file >> s;
+    indexing = s.substr(s.find('=') + 1, s.find('\\'));
+    file >> s;
+    merging = s.substr(s.find('=') + 1, s.find('\\'));
+
+    conf.in_file = data[0];
+    conf.out_by_name = data[1];
+    conf.out_by_number = data[2];
+    conf.merging_threads = stoi(merging);
+    conf.indexing_threads = stoi(indexing);
+    return conf;
 }

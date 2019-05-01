@@ -12,8 +12,17 @@
 #include <map>
 #include <math.h>
 #include <string>
-#include <lib/zip.h>
 #include <boost/algorithm/string.hpp>
+#include <mutex>
+
+
+struct config {
+    std::string in_file;
+    std::string out_by_name;
+    std::string out_by_number;
+    int indexing_threads;
+    int merging_threads;
+};
 
 inline std::chrono::steady_clock::time_point get_current_time_fenced() {
     assert(std::chrono::steady_clock::is_steady &&
@@ -32,16 +41,13 @@ inline long long to_us(const D &d) {
 void print(std::vector<std::string> const &string);
 void printMap(std::map<std::string, int> map);
 std::vector<std::string> read_txt_file(std::string const &path);
-void write_to_file(std::map<std::string, int> words, int number);
 bool isNotAlpha(char c);
 std::vector<std::string> slice(std::vector<std::string> const &data, int m, int n);
 
-struct configuration {
-    std::vector<std::string> inputFiles;
-    std::vector<std::string> outputFiles;
-    int threads;
-};
-
-configuration read_conf(std::istream &cf);
+std::string extension(std::string file);
+void write_to_file(const std::string &filename, std::vector<std::pair<std::string, int>> &words);
+bool words_compare(std::pair<std::string, int> &first, std::pair<std::string, int> &second);
+bool number_compare(std::pair<std::string, int> &first, std::pair<std::string, int> &second);
+config read_file(std::string filename);
 
 #endif //CPP_LAB_4_WORD_COUNT_HELPERS_H

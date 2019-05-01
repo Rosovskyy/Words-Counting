@@ -1,4 +1,0 @@
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/build/CMakeFiles/multi_thread_solution.dir
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/build/CMakeFiles/rebuild_cache.dir
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/build/CMakeFiles/edit_cache.dir
-/Volumes/Transcend/UCU/2year/2 sem/ACS/CPP_Lab_4_Word_Count/build/CMakeFiles/one_thread_solution.dir
